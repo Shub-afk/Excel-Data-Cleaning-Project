@@ -2,69 +2,81 @@
 
 ## Overview
 
-This project demonstrates the process of cleaning a messy dataset using **Microsoft Excel**. The workbook contains both the original raw data and the cleaned dataset, showcasing the complete data-cleaning workflow.
-
-> **Note:** This project was completed as a hands-on learning exercise by following the YouTube tutorial **"Master Data Cleaning Essentials on Excel in Just 10 Minutes"** by Kenji Explains.
+This project demonstrates the process of cleaning and preparing a messy dataset using **Microsoft Excel**. The workbook contains both the **Raw Data** and **Cleaned Data** worksheets, showcasing the transformation of raw data into a clean, structured, and analysis-ready dataset.
 
 ---
 
-## Project Files
+## 📄 Project
 
-* **Data Cleaning.xlsx**
+The Excel workbook contains:
 
-  * **Raw Data** sheet
-  * **Clean Data** sheet
-* **before_after_comparison.png** – Visual comparison of the dataset before and after cleaning
-
----
-
-## Data Cleaning Techniques Used
-
-* AutoFit Rows & Columns
-* Find & Replace
-* TRIM()
-* LOWER()
-* PROPER()
-* Text to Columns
-* Remove Duplicates
-* Fill Missing Values
-* IFERROR()
-* Data Formatting
+- **Raw Data** – Original dataset before cleaning
+- **Cleaned Data** – Dataset after applying data cleaning techniques
 
 ---
 
-## Skills Demonstrated
+## 🛠 Data Cleaning Techniques Applied
 
-* Data Cleaning
-* Data Preparation
-* Data Quality Improvement
-* Excel Functions
-* Spreadsheet Organization
-
----
-
-## Before & After
-
-The image below illustrates the transformation from the raw dataset to the cleaned dataset.
-
-![Before and After](before_after_comparison.png)
-
----
-
-## What I Learned
-
-This project helped me understand the importance of cleaning data before analysis. I learned how to standardize text, remove inconsistencies, handle missing values, eliminate duplicate records, and prepare datasets for reporting and visualization using Microsoft Excel.
+- AutoFit Rows & Columns
+- Find & Replace
+- Removed unwanted characters
+- Standardized text using:
+  - `TRIM()`
+  - `LOWER()`
+  - `PROPER()`
+- Split data using **Text to Columns**
+- Removed duplicate records
+- Handled missing values
+- Used `IFERROR()` to handle formula errors
+- Applied formatting for improved readability
 
 ---
 
-## Tools Used
+## 📷 Before vs After
 
-* Microsoft Excel
+### Raw Dataset
+
+<p align="center">
+  <img src="before.png" alt="Raw Dataset" width="900">
+</p>
+
+### Cleaned Dataset
+
+<p align="center">
+  <img src="after.png" alt="Cleaned Dataset" width="900">
+</p>
 
 ---
 
-## Acknowledgements
+## 💡 Skills Demonstrated
 
-Tutorial followed: **Master Data Cleaning Essentials on Excel in Just 10 Minutes** by **Kenji Explains**.
+- Microsoft Excel
+- Data Cleaning
+- Data Preparation
+- Data Quality Improvement
+- Data Standardization
+- Excel Functions
+- Spreadsheet Formatting
 
-This project is shared for learning and portfolio purposes.
+---
+
+## 🎯 Key Learning Outcomes
+
+- Cleaned and standardized inconsistent data
+- Removed duplicate records
+- Handled missing values
+- Applied Excel functions for data transformation
+- Improved data quality for analysis and reporting
+- Organized datasets using Excel best practices
+
+---
+
+## 🧰 Tools Used
+
+- Microsoft Excel
+
+---
+
+## 🚀 Outcome
+
+Successfully transformed a messy dataset into a clean, consistent, and analysis-ready format using Microsoft Excel's built-in tools and functions.
